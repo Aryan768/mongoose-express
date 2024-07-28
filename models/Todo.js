@@ -4,4 +4,4 @@ const TodoSchema = new mongoose.Schema({
     desc : String,
     isDone : Boolean 
   });
- export const Todo = mongoose.model('Todo', TodoSchema);
+ export const Todoz = mongoose.model('Todox', TodoSchema);      
